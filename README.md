@@ -2,6 +2,8 @@
 
 This project demonstrates a **complete end-to-end Data Engineering pipeline** built using **Databricks Delta Live Tables (DLT)** following the **Medallion Architecture (Bronze → Silver → Gold)**. The project covers data ingestion, transformation, optimization, and business-level reporting using curated views and dashboards.
 
+<img width="1359" height="1040" alt="Screenshot 2026-01-15 100448" src="https://github.com/user-attachments/assets/b718afc5-1788-4ab9-9ab7-62eeaf713a52" />
+
 ---
 
 ## 📌 Project Overview
@@ -16,20 +18,27 @@ This project demonstrates a **complete end-to-end Data Engineering pipeline** bu
 
 ## 🏗️ Project Structure
 
-```
-Main_DLT_Project/
-│
-├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture
-│   ├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Bronze        # Raw data ingestion (DLT)
-│   ├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Silver     # Cleaned & transformed data (DLT)
-│   ├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Gold         # SCD-2 & business-ready data (DLT)
-│   
-│
-├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/Business_Dashboard_Views
-│   ├── https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/Business_Dashboard_Views/Sql_View     # Business SQL views
-│   ├── dashboards/   # Databricks SQL / BI dashboards
-│   
-```
+
+
+https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture
+## ETL_Medallion_Architecture
+ https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Bronze       
+  ### Raw data ingestion (Bronze)
+https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Silver     
+  ### Cleaned & transformed data (Silver)
+
+ https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/ETL_Medallion_Architecture/Gold         
+  ### SCD-2 & business-ready data (Gold)
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+ https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/Business_Dashboard_Views
+## Business_Dashboard_Views
+ https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/Business_Dashboard_Views/Sql_View    
+  ### Business SQL views
+https://github.com/divyanshpatel128/Databricks_DLT_Pipeline_Project/tree/main/Business_Dashboard_Views/Dashboard  
+  ### Databricks SQL / BI dashboards
+
+
 
 ---
 
